@@ -1,0 +1,86 @@
+/* BasketballPlayerCard.css */
+
+.player-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #c3bbbb;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    margin: 16px auto;
+  }
+  
+  .player-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .player-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    object-fit: cover;
+  }
+  
+  .player-name {
+    font-size: 24px;
+    margin: 16px 0 8px;
+    color: #333;
+  }
+  
+  .player-position {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .player-stats {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  
+  .player-stats p {
+    margin: 4px 0;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .player-card {
+      max-width: 100%;
+      padding: 12px;
+    }
+  
+    .player-name {
+      font-size: 20px;
+    }
+  
+    .player-position {
+      font-size: 16px;
+    }
+  
+    .player-stats {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .player-card {
+      padding: 8px;
+    }
+  
+    .player-name {
+      font-size: 18px;
+    }
+  
+    .player-position {
+      font-size: 14px;
+    }
+  
+    .player-stats {
+      font-size: 12px;
+    }
+  }
+  
